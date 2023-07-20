@@ -14,7 +14,7 @@ import {
 
 export const APICompatibilityDescriptor = t.intersection(
   [
-    t.interface({
+    t.type({
       /**
        * Maximum compatible API version for the component.
        *

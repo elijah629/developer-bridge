@@ -125,7 +125,7 @@ export const installAction = async (
       appHost.host.hasCapability('appHost.launch.appComponent') &&
       appHost.host.info.capabilities.appHost!.launch!.appComponent!.canLaunch
     ) {
-      if (args.options.skipLaunch !== true) {
+      if (!args.options.skipLaunch) {
         cli.activeCommand.log('Launching app');
         await appHost.host.launchAppComponent({
           uuid: appPackage.uuid,

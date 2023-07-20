@@ -105,6 +105,7 @@ export function findCompatibleAppComponent(
   for (const hostCompatibilityDescriptor of hostCompatibility) {
     const { family } = hostCompatibilityDescriptor;
     if (!matchedPlatforms.has(family)) continue;
+
     if (
       !isAPICompatible(
         appPackage.sdkVersion.deviceApi,
