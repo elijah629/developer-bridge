@@ -28,7 +28,7 @@
     "graphology": "^0.24.1",
     "graphology-gexf": "^0.10.2",
     "graphology-types": "^0.24.4",
-    "io-ts": "2.2.10",
+    "io-ts": "^2.2.20",
     "jszip": "^3.5.0",
     "tslib": "^2.0.1",
     "yargs": "^15.4.1"

@@ -22,7 +22,7 @@
     "@fitbit/jsonrpc-ts": "^3.2.1",
     "fp-ts": "2.8.2",
     "invariant": "^2.2.2",
-    "io-ts": "2.2.10",
+    "io-ts": "^2.2.20",
     "semver": "^7.3.2",
     "tslib": "^2.0.1",
     "validator": "^13.1.1"
